@@ -20,10 +20,14 @@ Statistical Analysis: An in-depth statistical examination of the dataset to unde
 # 4. Data Preprocessing
 To prepare the data for modeling, the following steps were implemented:
 
-Stop Word Removal: Commonly used words (e.g., "the," "and") were removed.
-Lemmatization: Words were reduced to their base forms to improve model performance.
-Dataset Splitting: The dataset was divided into an 80% training set and a 20% test set.
-Feature and Target Creation: Features were extracted from the text data, and the target variable (patient condition) was defined.
+4.1. Stop Word Removal: Commonly used words (e.g., "the," "and") were removed.
+
+4.2. Lemmatization: Words were reduced to their base forms to improve model performance.
+
+4.3. Dataset Splitting: The dataset was divided into an 80% training set and a 20% test set.
+
+4.4. Feature and Target Creation: Features were extracted from the text data, and the target variable (patient condition) was defined.
+
 # 5. Modeling Techniques
 Various models and techniques were used to classify patient conditions:
 
@@ -37,5 +41,6 @@ Various models and techniques were used to classify patient conditions:
 # 6. Evaluation Metrics
 To assess model performance, the following evaluation techniques were used:
 
-Confusion Matrix: A matrix to visualize true positives, true negatives, false positives, and false negatives.
-Accuracy Score: To measure the overall effectiveness of the model.
+6.1. Confusion Matrix: A matrix to visualize true positives, true negatives, false positives, and false negatives.
+
+6.2. Accuracy Score: To measure the overall effectiveness of the model.
