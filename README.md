@@ -27,10 +27,13 @@ Feature and Target Creation: Features were extracted from the text data, and the
 # 5. Modeling Techniques
 Various models and techniques were used to classify patient conditions:
 
-TF-IDF (Term Frequency-Inverse Document Frequency): A popular technique for extracting features from text by converting it into vectors or matrices.
-Bag of Words: Another technique for feature extraction.
-Naive Bayes Classifier: A simple and efficient probabilistic model for classification.
-Passive Aggressive Classifier: An online learning algorithm well-suited for large datasets.
+5.1. TF-IDF (Term Frequency-Inverse Document Frequency): A popular technique for extracting features from text by converting it into vectors or matrices.
+
+5.2. Bag of Words: Another technique for feature extraction.
+
+5.3. Naive Bayes Classifier: A simple and efficient probabilistic model for classification.
+
+5.4. Passive Aggressive Classifier: An online learning algorithm well-suited for large datasets.
 # 6. Evaluation Metrics
 To assess model performance, the following evaluation techniques were used:
 
